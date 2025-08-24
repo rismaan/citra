@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suzuki Car Dealership</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'suzuki-blue': '#003366',
+              'suzuki-red': '#E60012',
+            },
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+            },
+          },
+        },
+      }
+    </script>
+     <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+     <style>
+      body {
+        background-color: #fff1f2; /* A light pink fallback */
+        background-image: linear-gradient(to bottom right, #fdf2f8, #fce7f3, #fbcfe8);
+        background-attachment: fixed;
+      }
+      .floral-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='a' fill='%23ec4899' fill-opacity='0.08'%3E%3Cpath d='M0 7v1.4c1.1 0 2.1.2 3 .5l.7 1.9c-.3.2-.5.4-.8.7-.9.9-1.2 2-1.2 3.1V22c0 1.2.3 2.2 1 3 .6.8 1.4 1.2 2.3 1.5v1.2c-1.2.2-2.3.8-3.2 1.7-.8.9-1.2 2-1.2 3.2V35c0 1.2.3 2.2 1 3 .6.8 1.4 1.2 2.3 1.5v1.2c-1.2.2-2.3.8-3.2 1.7-.8.9-1.2 2-1.2 3.2v3.7h1.4V45c0-1.2.3-2.2 1-3 .6-.8 1.4-1.2 2.3-1.5v-1.2c-1.2-.2-2.3-.8-3.2-1.7-.8-.9-1.2-2-1.2-3.2V32c0-1.2.3-2.2 1-3 .6-.8 1.4-1.2 2.3-1.5v-1.2c-1.2-.2-2.3-.8-3.2-1.7-.8-.9-1.2-2-1.2-3.2V14c0-1.2.3-2.2 1-3 .6-.8 1.4-1.2 2.3-1.5V8.3c-1.2-.2-2.3-.8-3.2-1.7C.8 5.7.5 4.7.5 3.5V0H0v7zm2.3 28.4c.5.6.8 1.3.8 2.1v2.8h1.4V35c0-1.2-.3-2.2-1-3-.6-.8-1.4-1.2-2.3-1.5v-1.2c1.2-.2 2.3-.8 3.2-1.7.8-.9 1.2-2 1.2-3.2V22c0-1.2-.3-2.2-1-3-.6-.8-1.4-1.2-2.3-1.5v-1.2c1.2-.2 2.3-.8 3.2-1.7.8-.9 1.2-2 1.2-3.2V9.3c0-1.2-.3-2.2-1-3-.6-.8-1.4-1.2-2.3-1.5V3.6c1.2-.2 2.3-.8 3.2-1.7C6 1 6.3 0 6.3 0h1.4v2.8c0 1.2.3 2.2 1 3 .6.8 1.4 1.2 2.3 1.5v1.2c-1.2.2-2.3-.8-3.2-1.7-.8-.9-1.2-2-1.2-3.2V19c0 1.2.3 2.2 1 3 .6.8 1.4 1.2 2.3 1.5v1.2c-1.2.2-2.3.8-3.2 1.7-.8.9-1.2 2-1.2 3.2V32c0 1.2.3 2.2 1 3 .6.8 1.4 1.2 2.3 1.5v1.2c-1.2.2-2.3.8-3.2 1.7-.8.9-1.2 2-1.2 3.2v2.8h1.4V42c0-1.2.3-2.2 1-3 .6-.8 1.4-1.2 2.3-1.5v-1.2c-1.2-.2-2.3-.8-3.2-1.7-.6-.9-1-2-1-3.2v-2.2c0-1.1-.3-2.1-1-3zM11.4 22c0 1.2.3 2.2 1 3 .6.8 1.4 1.2 2.3 1.5v1.2c-1.2.2-2.3.8-3.2 1.7-.8.9-1.2 2-1.2 3.2V35c0 1.2.3 2.2 1 3 .6.8 1.4 1.2 2.3 1.5v1.2c-1.2.2-2.3.8-3.2 1.7-.8.9-1.2 2-1.2 3.2v2.8h1.4V45c0-1.2.3-2.2 1-3 .6-.8 1.4-1.2 2.3-1.5v-1.2c-1.2-.2-2.3-.8-3.2-1.7-.8-.9-1.2-2-1.2-3.2V32c0-1.2.3-2.2 1-3 .6-.8 1.4-1.2 2.3-1.5v-1.2c-1.2-.2-2.3-.8-3.2-1.7-.8-.9-1.2-2-1.2-3.2V14c0-1.2.3-2.2 1-3 .6-.8 1.4-1.2 2.3-1.5V8.3c-1.2-.2-2.3-.8-3.2-1.7C9.2 5.7 9 4.7 9 3.5V0h1.4v3.5c0 1.2.3 2.2 1 3 .6.8 1.4 1.2 2.3 1.5v1.2c-1.2.2-2.3.8-3.2 1.7-.8.9-1.2 2-1.2 3.2V22z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        z-index: -1;
+        pointer-events: none;
+      }
+     </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/",
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
